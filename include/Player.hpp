@@ -1,9 +1,14 @@
+#pragma once
+
 #include "GameObject.hpp"
+#include "Input.hpp"
 
 #include "Socket.h"
 
 class Player : public GameObject {
 public:
-	Socket* connection;
-	Player(Socket* s);
+	int id;
+	Input myInput;
+	
+	Player();
 };

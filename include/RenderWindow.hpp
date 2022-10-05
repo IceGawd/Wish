@@ -9,11 +9,12 @@
 
 using namespace std;
 
+const static int WIDTH = 1280;
+const static int HEIGHT = 720;
+
+
 class RenderWindow {
 public:
-	const static int WIDTH = 1280;
-	const static int HEIGHT = 720;
-
 
 	SDL_Window* window;
 	SDL_Renderer* renderer;
